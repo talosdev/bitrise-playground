@@ -2,8 +2,8 @@ package com.scruff.bitriseplayground
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.button).setOnClickListener {
-            Log.d("MAIN", "Button clicked")
+                findViewById<TextView>(R.id.textView).setText(R.string.new_text)
         }
     }
 }
