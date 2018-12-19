@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BitrisePlayground</string>
+    <string name="welcome_to_bitrise">Welcome to bitrise</string>
+    <string name="click_me">Click me</string>
 </resources>
